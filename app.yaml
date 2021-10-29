@@ -1,0 +1,47 @@
+runtime: php55
+api_version: 1
+handlers:
+    - url: /question1
+      script: home1.php
+    - url: /question3/fetchData3.php
+      script: fetchData3.php
+    - url: /question3
+      script: home3.php
+    - url: /question3/dataCovidMap.js
+      script: dataCovidMap.js
+    - url: /question3/svgMap.js
+      script: svgMap.js
+    - url: /question3/searchData3.php
+      script: searchData3.php
+    - url: /question3/svgMap.css
+      script: svgMap.css
+    - url: /question1/fetchData1.php
+      script: fetchData1.php
+    - url: /question1/pagination1.js
+      script: pagination1.js
+    - url: /question1/formValidation1.js
+      script: formValidation1.js
+    - url: /question1/update-btn1.js
+      script: update-btn1.js
+    - url: /question1/addData1.php
+      script: addData1.php
+    - url: /question1/quickUpdate1.php
+      script: quickUpdate1.php
+    - url: /question1/readData1
+      script: readData1.php
+    - url: /question1/deleteData1.php
+      script: deleteData1.php
+    - url: /question1/getDataForUpdate1.php
+      script: getDataForUpdate1.php
+    - url: /question1/getDataSize1.php
+      script: getDataSize1.php
+    - url: /question2/fetchData2.php
+      script: fetchData2.php
+    - url: /question2/searchData2.php
+      script: searchData2.php
+    - url: /question2/getDetail2.php
+      script: getDetail2.php
+    - url: /question2
+      script: home2.php
+    - url: /
+      script: home1.php
